@@ -1,26 +1,30 @@
-# UnusedPlatform
+# Modularbeit Webapplikation
+CAS Object Oriented Programming / CAS OOP/21.11
 
-## Beschrieb unused.ch
+#Gruppe
+Andreas Blaser, Benjamin Frischknecht, Alex Huber
 
-Wir wollen eine Plattform für Menschen bieten, die Dinge besitzen, welche sie nicht mehr benötigen. 
-Auf dieser Plattform können nun solche Dinge hochgeladen und gratis angeboten werden.
-Jeder Gegenstand braucht ein Bild.
-Dazu braucht man sich aus Sicherheitsgründen anzumelden. Es soll auch eine anonyme Kommentarspalte geben.
-In dieser können Interessierte Fragen zum Produkt stellen.
-Es sollten Such und Filtermöglichkeiten vorhanden sein damit man Gegenstände findet auf der Plattform.
+# Beschrieb Webapplikation:
+Über eine Webapplikation können Gegenstände publiziert werden, die gratis abzugeben sind. Die Anbieter können ihre Waren selbständig auf die Plattform hochladen und ihr Angebot online verwalten. Intressenten können auf der Webseite selbständig nach Angeboten suchen und mit den Anbietern kommunizieren.
 
-### MVP:
-* Platform in der man die Gegenstände raufladen kann
-* Anmeldefunktion
-* Suchfunktion
-* Kategorisierung (Dropdownmenü bei Vorgang während des Hochladens?)
+# MVP:
+•	Marktplatz für gratis Second-hand Artikel
+•	Registrierung für Anbieter und Abnehmer
+•	Erstellen Produktseite (Hochladen Bilder, Text, Kategorie, usw.) durch Anbieter
+•	Sortier- und Suchfunktion für anonyme Webseitenbesucher
+•	Kontaktdaten Anbieter nur für registrierte User sichtbar
 
-### Ausbaustufe:
-* Bewertungstool (man kann sich gegenseitig bewerten um das Vertrauen zwischen den Parteien zu erhöhen)
-* Kommentarspalte
-* Filterfunktion
+# Ausbaustufe:
+•	Forum/Chat auf jeder Produkteseite für registrierte User
+•	Bewertungstool (man kann sich gegenseitig bewerten um das Vertrauen zwischen den Parteien zu erhöhen)
+•	«Spendeknopf» (Twint, Kryptowährungen, usw.)
+•	Kompliziertere Filter für Suche
 
-### Was benötigt wird:
-* Datenbank die Daten sichert (Anmeldedaten, eingestellte Dinge, Kommentare etc.)
-* Backend (Businesslogik)
-* Frontend (Webbasierte Plattform) --> angelehnt an Ricardo oder Tutti?
+# Technische Umsetzung:
+•	Backend mit Spring Boot
+•	Frontend mit Angular
+•	Anbindung DB (PostgreSQL/Docker)
+•	Registrierung (KeyCloak/Docker)
+•	Serialisierung (REST)
+•	Netzwerkprogrammierung (Verbindung Back-/Frontend)
+
